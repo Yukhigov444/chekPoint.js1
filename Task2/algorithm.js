@@ -1,4 +1,6 @@
-function getGayName (day) {
-return day;
+function getDayName (day) {
+    if (typeof(day) !== "number") {
+        return 'error';
+    }
 }
-console.log(getGayName('ilyass'))
+console.log(getDayName(100))
